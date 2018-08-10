@@ -1,0 +1,22 @@
+#Wheel{
+  
+  height:200px;
+  width: 200px;
+  background-color:green;
+  border-radius: 50%;
+  
+}
+
+#Square{
+
+  position: relative;
+  left: 50px;
+  top: 75px;
+  height: 50px;
+  width: 100px;
+  background-color: yellow;
+
+}
+
+/* Just making things look appealing, sorta we tried ok
+   written by geocube333, exported through Sasugeta's github enjoy! */
