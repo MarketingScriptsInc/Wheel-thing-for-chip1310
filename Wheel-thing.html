@@ -2,21 +2,24 @@
   <head>
     <link rel="stylesheet" href="Wheel-thing.css">
     <script src="Wheel-thing.js"></script>
-
     <!-- just calling the css and js files respectively -->
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto" rel="stylesheet"> 
+    <!-- Just a link to some fonts-->
   </head>
   
   <body>
     <h1>Jeopardy Wheel Thing</h1>
-    <h4>(We Kinda Don't Have A Name For This)</h4>
-    <p id="Button" onclick="xyz()"> Spin! </p>
-    <!-- the top 2 lines are just titles but the bottom activates the function xyz in Wheel-thing.js when clicked-->
+    <h3>(We Kinda Don't Have A Name For This)</h3>
+    <p id="Questions" >Tap The Wheel For To Get The First Question </p>
+    <!-- the top 2 lines are just titles, while the bottom is simple instructions-->
 
-    <div id="Wheel">
+    <div id="Wheel" onclick="xyz()">
       <div id="Square"></div>
     </div>
-    <!-- Wheel is just the wheel, and square is the knob in the middle that points and stuff-->
+    <!-- Wheel is just the wheel and when clicked it calls xyz() from Wheel-thing.js, and Square is the knob in the-->
+    <!-- middle that points and displays where you landed (the degree of it)-->
+
   </body>
 </html>
 

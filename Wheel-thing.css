@@ -1,8 +1,9 @@
 #Wheel{
-  
-  height:200px;
+
+
+  height: 200px;
   width: 200px;
-  background-color:green;
+  background-color: #65a465;
   border-radius: 50%;
   
 }
@@ -10,11 +11,19 @@
 #Square{
 
   position: relative;
-  left: 50px;
-  top: 75px;
-  height: 50px;
+  left: 100px;
+  top: 92px;
+  height: 20px;
   width: 100px;
-  background-color: yellow;
+  background-color: #d7b966;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+
+  font-family: 'Open Sans', sans-serif;
+  background-color: #72cad2;
 
 }
 
